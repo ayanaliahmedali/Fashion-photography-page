@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #733250;
+}
+
+.container {
+    height: 600px;
+    width: 1000px;
+    background-color: #b33b69;
+    margin: 0 auto;
+    position: relative;
+    top: 12em;
+    border-radius: 30px;
+}
+
+.background-img-div {
+    background-image: url("photography_fashion-removebg-preview.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 600px;
+}
+
+.navigation {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.multi-ul-and-li {
+   list-style: none;
+   display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+img {
+    color: #fff;
+    width: 50px;
+}
+
+.first-heading{
+    color: #fff;
+    font-size: 10px;
+}
+
+.carousel {
+    position: relative;
+    top: 6em;
+    left: 10em;
+}
+
+.second-heading {
+    font-size: 50px;
+}
+
+#one-h2 {
+   color: transparent;
+   -webkit-text-stroke: 1px #cccbd1;
+}
+
+#second-h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+button {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    background-color: white;
+    padding: 16px;
+    color: #b33b69;
+}
+
+i.fa-solid.fa-globe {
+    border-radius: 35px;
+}
+
+i.fa-brands.fa-instagram {
+    border-radius: 35px;
+    padding: 16px;
+    background-color: #fff;
+    color: #d82545;
+}
+
+i.fa-brands.fa-youtube {
+    border-radius: 35px;
+    padding: 16px;
+    background-color: #fff;
+    color: #d82545;
+}
+
+.font-awesom-icon {
+    margin-top: 4em;
+}
